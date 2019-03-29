@@ -1,0 +1,559 @@
+body {
+    background-color:lightgrey;
+}
+
+h1 {
+    text-align:center;
+    font-size:40px;
+}
+
+.home-wrapper {
+    background-color: black;
+    overflow: visible;
+}
+
+.home-wrapper a {
+    float: left;
+    color: lightgrey;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.home-wrapper a:hover {
+    background-color: rgb(191, 133, 199);
+    color: black;
+    text-decoration: underline;
+}
+
+.dropdown-menu {
+    background-color: black;
+    text-align: left;
+  }
+
+.giants-roster {
+    height:600px;
+    width:auto;
+    border: 6px solid blue;
+    padding: auto;
+    margin-top: 2%;
+    margin-left: 6.6%;
+    margin-right:6.6%;
+    background-image: url("GiantsField.jpg");
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.giants-roster i {
+    display: inline-block;
+    position:absolute;
+    text-align:center;
+    color:darkblue;
+}
+
+#Eli {
+    margin-left:46.4%;
+    margin-top: 18.7%;
+}
+
+#Eli::after {
+    content: '10';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Halapio {
+    margin-left:43%;
+    margin-top:18.7%;
+}
+
+#Halapio::after {
+    content: '75';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Hernandez {
+    margin-left:43.4%;
+    margin-top:22.1%;
+}
+
+#Hernandez::after {
+    content: '71';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Zeitler {
+    margin-left:43.4%;
+    margin-top:15.3%;
+}
+
+#Zeitler::after {
+    content: '70';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Solder {
+    margin-left:44%;
+    margin-top:25.4%;
+}
+
+#Solder::after {
+    content: '76';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Wheeler {
+    margin-left:44%;
+    margin-top:11.9%;
+}
+
+#Wheeler::after {
+    content: '63';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Saquon {
+    margin-left:53%;
+    margin-top:18.7%;
+}
+
+#Saquon::after {
+    content: '26';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Golden {
+    margin-left:43.2%;
+    margin-top:4.3%;
+    transition: 0.5s ease;
+    z-index:2;
+}
+
+#Golden::after {
+    content: '81';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Sterling {
+    margin-left:43.2%;
+    margin-top: 34%;
+}
+
+#Sterling::after {
+    content: '87';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Coleman {
+    margin-left:45%;
+    margin-top:8.1%;
+}
+
+#Coleman::after {
+    content: '19';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Engram {
+    margin-left:44%;
+    margin-top:29%
+}
+
+#Engram::after {
+    content: '88';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Dalvin {
+    margin-left:39%;
+    margin-top:18.7%;
+    color:firebrick;
+}
+
+#Dalvin::after {
+    content: '94';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#BJ {
+    margin-left:39%;
+    margin-top:22.4%;
+    color:firebrick;
+}
+
+#BJ::after {
+    content: '95';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Kareem {
+    margin-left:39%;
+    margin-top:15%;
+    color:firebrick;
+}
+
+#Kareem::after {
+    content: '96';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Lorenzo {
+    margin-left:35%;
+    margin-top:13%;
+    color:firebrick;
+}
+
+#Lorenzo::after {
+    content: '59';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Markus {
+    margin-left:35%;
+    margin-top:24.4%;
+    color:firebrick;
+}
+
+#Markus::after {
+    content: '44';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Alec {
+    margin-left:32.3%;
+    margin-top:16.7%;
+    color:firebrick
+}
+
+#Alec::after {
+    content: '52';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Goodson {
+    margin-left:32.3%;
+    margin-top:20.5%;
+    color:firebrick;
+}
+
+#Goodson::after {
+    content: '93';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Janoris {
+    margin-left:38%;
+    margin-top:4.3%;
+    color:firebrick;
+    transition: 0.5s ease;
+}
+
+#Janoris::after {
+    content: '20';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Beal {
+    margin-left:38%;
+    margin-top:34%;
+    color:firebrick;
+}
+
+#Beal::after {
+    content: '40';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Bethea {
+    margin-left:25%;
+    margin-top:23%;
+    color:firebrick;
+}
+
+#Bethea::after {
+    content: '41';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+#Peppers {
+    margin-left: 28%;
+    margin-top: 11.9%;
+    color:firebrick;
+}
+
+#Peppers::after {
+    content: '22';
+    position:absolute;
+    display:inline-block;
+    top: 26%;
+    bottom:auto;
+    left:28%;
+    right:auto;
+    font-size:20px;
+    color:white;
+}
+
+
+.player-info {
+    background-color: darkgray;
+    position:absolute;
+    transition: 0.5s ease;
+    height:auto;
+    width:50%;
+    left: 25%;
+    padding-right:2%;
+    padding-left:2%;
+    margin-top:0px;
+    text-align: center;
+    word-spacing: 3px;
+    opacity:0;
+    z-index:1;
+}
+
+.giants-roster i:hover {
+    color:red;
+}
+
+.scrubs:hover #Golden, .scrubs:hover #Janoris {
+    opacity:0.1;
+}
+
+#Eli:hover ~ #EliInfo {
+    opacity:0.94;
+}
+
+#Halapio:hover ~ #HalapioInfo {
+    opacity:0.94;
+}
+
+#Hernandez:hover ~ #HernandezInfo {
+    opacity:0.94;
+}
+
+#Zeitler:hover ~ #ZeitlerInfo {
+    opacity:0.94;
+}
+
+#Solder:hover ~ #SolderInfo {
+    opacity:0.94;
+}
+
+#Wheeler:hover ~ #WheelerInfo {
+    opacity:0.94;
+}
+
+#Saquon:hover ~ #SaquonInfo {
+    opacity:0.94;
+}
+
+#Golden:hover ~ #GoldenInfo {
+    opacity:0.94;
+}
+
+#Golden:hover {
+    opacity:0.1;
+}
+
+#Sterling:hover ~ #SterlingInfo {
+    opacity:0.94;
+}
+
+#Coleman:hover ~ #ColemanInfo {
+    opacity:0.94;
+}
+
+#Engram:hover ~ #EngramInfo {
+    opacity:0.94;
+}
+
+#Dalvin:hover ~ #DalvinInfo {
+    opacity:0.94;
+}#Dalvin:hover {color:blue;}
+
+#BJ:hover ~ #BJInfo {
+    opacity:0.94;
+}#BJ:hover {color:blue;}
+
+#Kareem:hover ~ #KareemInfo {
+    opacity:0.94;
+}#Kareem:hover {color:blue;}
+
+#Lorenzo:hover ~ #LorenzoInfo {
+    opacity:0.94;
+}#Lorenzo:hover {color:blue;}
+
+#Markus:hover ~ #MarkusInfo {
+    opacity:0.94;
+}#Markus:hover {color:blue;}
+
+#Alec:hover ~ #AlecInfo {
+    opacity:0.94;
+}#Alec:hover {color:blue;}
+
+#Goodson:hover ~ #GoodsonInfo {
+    opacity:0.94;
+}#Goodson:hover {color:blue;}
+
+#Janoris:hover ~ #JanorisInfo {
+    opacity:0.94;
+}#Janoris:hover {color:blue;}
+
+#Beal:hover ~ #BealInfo {
+    opacity:0.94;
+}#Beal:hover {color:blue;}
+
+#Bethea:hover ~ #BetheaInfo {
+    opacity:0.94;
+}#Bethea:hover {color:blue;}
+
+#Peppers:hover ~ #PeppersInfo {
+    opacity:0.94;
+}#Peppers:hover {color:blue;}

@@ -1,0 +1,18 @@
+
+
+body {
+    background-color:lightgrey;
+}
+
+.container {
+    width:100%;
+    padding:14px 16px;
+    font-size:30px;
+    text-decoration:none;
+    text-align:center;
+    color:black;
+}
+
+.sm-child1 {
+    text-indent:2%;
+}
