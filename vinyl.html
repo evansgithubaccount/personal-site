@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Record Collection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="vinyl.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="vinyl.js"></script>
+</head>
+<body>
+    <div class="home-wrapper">
+        <nav class="navbar navbar-expand" style="background-color: #8e55a5;">
+            <a href="home.html">Home</a>
+            <div class="dropdown">
+                <button class="btn btn-muted dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Music
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="vinyl.html">Record Collection</a>
+                    <a class="dropdown-item" href="60s.html">60s</a>
+                    <a class="dropdown-item" href="70s.html">70s</a>
+                    <a class="dropdown-item" href="80s.html">80s</a>
+                    <a class="dropdown-item" href="90s.html">90s</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-muted dropdown-toggle" type="button" id="dropdownSportsButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sports
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownSportsButton">
+                    <a class="dropdown-item" href="giants.html">New York Giants</a>
+                    <a class="dropdown-item" href="knicks.html">New York Knicks</a>
+                </div>
+                </div>
+            </nav>
+        </nav>
+    </div>
+    <div class="album-cover" id="HTBAHB" onclick="growHTBAHB()">
+        <img src="./img/HTBAHB.jpg" class="image" id="HTBAHBImage" width="100%"> 
+        <div class="album-description" id="HTBAHBDescrip" >   
+            <p>How To Be A Human Being<br> by Glass Animals</p>
+            <ol>
+                <li>Life Itself</li>
+                <li>Youth</li>
+                <li>Season 2 Episode 3</li>
+                <li>Pork Soda</li>
+                <li>Mama's Gun</li>
+                <li>Cane Shuga</li>
+                <li>[Premade Sandwiches]</li>
+                <li>The Other Side of Paradise</li>
+                <li>Take a Slice</li>
+                <li>Poplar St</li>
+                <li>Agnes</li>
+                </ol>
+        </div>
+    </div>
+    <div class="album-cover" id="DirtyProjectors" onclick="growProjectors()">
+        <img src="./img/DirtyProjectors.jpg" class="image" width="100%">
+        <div class="album-description" id="ProjectorsDescrip" >   
+            <p>Dirty Projectors</p>
+            <ol>
+                <li>Keep Your Name</li>
+                <li>Death Spiral</li>
+                <li>Up in Hudson</li>
+                <li>Work Together</li>
+                <li>Little Bubble</li>
+                <li>Winner Take Nothing</li>
+                <li>Ascent Through Clouds</li>
+                <li>Cool Your Heart (ft. Dawn Richard)</li>
+                <li>I SeeYou</li>
+            </ol></div>
+    </div>
+    <div class="album-cover" id="EMS" onclick="growEMS()">
+        <img src="./img/EMS.jpg" class="image" width="100%">
+        <div class="album-description" id="EMSDescrip" >   
+            <p>Echo Mountain Sessions</p>
+            <ol>
+                <li>Rewind</li>
+                <li>Die Young</li>
+                <li>The Glow</li>
+                <li>Radio</li>
+                <li>Slack Jaw</li>
+            </ol></div>
+    </div>
+    <div class="album-cover" id="damn" onclick="growDamn()">
+        <img src="./img/Damn.png" class="image" width="100%">
+        <div class="album-description" id="EMSDescrip" >   
+            <p>DAMN.</p>
+            <ol>
+                <li>Blood</li>
+                <li>DNA</li>
+                <li>Yah</li>
+                <li>Element</li>
+                <li>Feel</li>
+                <li>Loyalty (ft. Rihanna)</li>
+                <li>Pride</li>
+                <li>Humble</li>
+                <li>Lust</li>
+                <li>Love (ft. Zacari)</li>
+                <li>XXX (ft. U2)</li>
+                <li>Fear</li>
+                <li>God</li>
+                <li>Duckworth</li>
+            </ol></div>
+    </div>
+    <div class="album-cover" id="males" onclick="growMales()">
+        <img src="./img/males.jpg" class="image" width="100%">
+        <div class="album-description" id="EMSDescrip" >   
+                <p>Run Run Run/MalesMalesMales</p>
+                <ol>
+                    <li>Pre Roll</li>
+                    <li>Lucky Too</li>
+                    <li>Madeline</li>
+                    <li>Weakness</li>
+                    <li>So High</li>
+                    <li>All Up From Here</li>
+                    <li>Over And Out</li>
+                    <li>Marion Bates Theivery</li>
+                    <li>Off The Floor</li>
+                </ol></div>
+        </div>
+    </div><br>
+    <div class="album-cover" id="Snowmine" onclick="grow(this)">
+        <img src="./img/snowmine.jpg" class="image" width="100%">
+    </div>
+    <div class="album-cover" id="flowerboy" onclick="grow(this)">
+        <img src="./img/flowerboy.jpg" class="image" width="100%">
+    </div>
+    <div class="album-cover" id="skott" onclick="grow(this)">
+        <img src="./img/skott.jpg" class="image" width="100%">
+    </div>
+    <div class="album-cover" id="band-of-gypsys" onclick="grow(this)">
+        <img src="./img/bandofgypsys.jpeg" class="image" width="100%">
+    </div>
+    <div class="album-cover" id="malibu" onclick="grow(this)">
+        <img src="./img/malibu.jpg" class="image" width="100%">
+    </div><br>
+    <div class="album-cover" id="man-on-the-moon" onclick="grow(this)">
+        <img src="./img/manonthemoon.jpg" class="image" width="100%">
+    </div>
+    <div class="album-cover" id="Ladyland" onclick="grow(this)">
+        <img src="./img/ellcover.jpg" class="image" width="100%">
+    </div>
+    <div class="album-cover" id="waco" onclick="grow(this)">
+        <img src="./img/waco.jpg" class="image" width="100%">
+    </div>
+    <div class="album-cover" id="jurado" onclick="grow(this)">
+        <img src="./img/jurado.jpeg" class="image" width="100%">
+    </div>
+    
+<footer>
+    <p>Made by Evan Moore - <a href="sitemap.html">Site Map</a></p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+</body>
+</html>
