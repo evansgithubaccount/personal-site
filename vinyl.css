@@ -1,5 +1,7 @@
 body {
     background-color:lightgrey;
+    max-width:100%;
+    overflow-x:hidden;
 }
 
 img {
@@ -12,7 +14,6 @@ footer {
   }
 .home-wrapper {
     background-color: black;
-    overflow: visible;
 }
 
 .home-wrapper a {
@@ -47,7 +48,7 @@ footer {
 }
   
 .album-description {
-    position:absolute;
+    position:fixed;
     width:100%;
     padding:0px;
     font-size:50%;
@@ -59,6 +60,10 @@ footer {
 .album-description p {
     width:100%;
     text-align:center;
+}
+
+.album-description ol {
+    margin-left:-8%;
 }
 
 .growHTBAHB {
@@ -115,9 +120,14 @@ footer {
     opacity:0.5;
 }
 
+.growEMS .EMSside {
+    text-align:left;
+    margin-left:10%;
+}
+
 .growDamn {
     transform:scale(3);
-    transform-origin: 115% -5%;
+    transform-origin: 118% -5%;
     background-color:white;
     z-index:1;
 }
@@ -134,17 +144,237 @@ footer {
 
 .growMales {
     transform:scale(3);
-    transform-origin: 183% -5%;
+    transform-origin: 186% -5%;
     background-color:rgba(150, 185, 85, 0.856);
     z-index:1;
 }
 
 .growMales .album-description {
-    color:black;
+    color:white;
     visibility:visible;
     top:0;
 }
 
 .growMales img {
     filter:blur(4px);
+}
+
+.growMales .maleside {
+    text-align:left;
+    margin-left:10%;
+}
+
+.growSnowmine {
+    transform:scale(3);
+    transform-origin: -83% 63%;
+    background-color:lightgoldenrodyellow;
+    z-index:1;
+}
+
+.growSnowmine .album-description {
+    color:black;
+    visibility:visible;
+    top:0;
+}
+
+.growSnowmine img {
+    filter:blur(4px);
+    opacity:0.75;
+}
+
+.growSnowmine .snowside {
+    text-align:left;
+    margin-left:10%;
+}
+
+.growFlowerboy {
+    transform:scale(3);
+    transform-origin: -18% 63%;
+    background-color:orange;
+    z-index:1;
+}
+
+.growFlowerboy .album-description {
+    color:black;
+    visibility:visible;
+    font-size:45%;
+    top:0;
+}
+
+.growFlowerboy img {
+    filter:blur(4px);
+    opacity:0.84;
+}
+
+.growFlowerboy ol {
+    margin-left:-10%;
+}
+
+.growSkott {
+    transform:scale(3);
+    transform-origin: 50% 63%;
+    background-color:darkgoldenrod;
+    z-index:1;
+}
+
+.growSkott .album-description {
+    color:black;
+    visibility:visible;
+    top:0;
+}
+
+.growSkott img {
+    filter:blur(4px);
+    opacity:0.84;
+}
+
+.growSkott .skottside {
+    text-align:left;
+    margin-left:10%;
+}
+
+.growGypsys {
+    transform:scale(3);
+    transform-origin: 120% 63%;
+    background-color:black;
+    z-index:1;
+}
+
+.growGypsys .album-description {
+    color:white;
+    visibility:visible;
+    font-size:45%;
+    top:0;
+}
+
+.growGypsys img {
+    filter:blur(4px);
+    opacity:0.84;
+}
+
+.growGypsys .gypside {
+    text-align:left;
+    margin-left:10%;
+}
+
+.growMalibu {
+    transform:scale(3);
+    transform-origin:184% 63%;
+    background-color:rgb(230, 162, 99);
+    z-index:1;
+}
+
+.growMalibu .album-description {
+    color:white;
+    visibility:visible;
+    font-size:31%;
+    top:0;
+}
+
+.growMalibu img {
+    filter:blur(4px);
+}
+
+.growMalibu .malibuSide {
+    text-align:left;
+    margin-left:10%;
+}
+
+.growMalibu .DosLP {
+    text-align:right;
+    margin-right:10%;
+}
+
+
+.growMoon {
+    transform:scale(3);
+    transform-origin:-84% 110%;
+    background-color:rgb(207, 199, 90);
+    z-index:1;
+}
+
+.growMoon .album-description {
+    color:black;
+    visibility:visible;
+    top:0;
+}
+
+.growMoon img {
+    filter:blur(4px);
+}
+
+.growMoon .moonSide {
+    text-align:left;
+    margin-left:10%;
+}
+
+.growLadyland {
+    transform:scale(3);
+    transform-origin:-18% 110%;
+    background-color:black;
+    z-index:1;
+}
+
+.growLadyland .album-description {
+    color:black;
+    visibility:visible;
+    font-size:31%;
+    top:0;
+}
+
+.growLadyland img {
+    filter:blur(4px);
+    opacity:.9;
+}
+
+.growLadyland .ellSide {
+    text-align:left;
+    margin-left:10%;
+}
+
+.growWACO {
+    transform:scale(3);
+    transform-origin:50% 110%;
+    background-color:black;
+    z-index:1;
+}
+
+.growWACO .album-description {
+    color:white;
+    visibility:visible;
+    font-size:44%;
+    top:0;
+}
+
+.growWACO img {
+    filter:blur(4px);
+}
+
+.growWACO .wacoSide {
+    text-align:left;
+    margin-left:10%;
+}
+
+.growJurado {
+    transform:scale(3);
+    transform-origin:120% 110%;
+    background-color:silver;
+    z-index:1;
+}
+
+.growJurado .album-description {
+    color:black;
+    visibility:visible;
+    font-size:44%;
+    top:0;
+}
+
+.growJurado img {
+    filter:blur(4px);
+    opacity:.75;
+}
+
+.growJurado .juradoSide {
+    text-align:left;
+    margin-left:10%;
 }
